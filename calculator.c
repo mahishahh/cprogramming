@@ -59,6 +59,7 @@ double custom_cos(double x)
 double custom_exp(double x)
 {
     double sum = 0.0;
+
     for (int i = 0; i <= MAX_TERMS; i++)
     {
         double term = power(x, i) / factorial(i);
